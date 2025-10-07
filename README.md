@@ -1,54 +1,56 @@
+# 🌤️ Weather App (Coding Assessment)
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+## Overview
+This project is a weather application built for the **Mobile Developer (Swift)** coding assessment. It allows users to search for any city and view live weather data using the **OpenWeather API**. The app demonstrates modern iOS development practices — including MVVM architecture, dependency injection, and clean code principles.
 
-#  Clima
+---
 
-## Our Goal
+## ✨ Features
+- **City Search:** Enter a city name to fetch real-time weather data.
+- **Weather Details Screen:** Shows temperature, condition description, and weather icon.
+- **Unit Conversion:** Toggle between °C and °F in the settings screen.
+- **Dark/Light Theme Support:** Adapts to system appearance.
 
-It’s time to take our app development skills to the next level. We’re going to introduce you to the wonderful world of Application Programming Interfaces (APIs) to grab live data from the internet. If you’re dreaming of making that Twitter-powered stock trading app then you’re about add some serious tools to your toolbelt!
+---
+
+## 🧱 Architecture
+The app is built using the **MVVM (Model-View-ViewModel)** pattern:
+- **Model:** Handles data parsing and API responses from OpenWeather.
+- **ViewModel:** Manages data flow between the model and UI, applies business logic.
+- **View (Storyboard):** Displays data and handles user interactions.
+
+---
+
+## 💡 Technical Highlights
+- **Language:** Swift  
+- **UI:** Storyboards  
+- **API:** [OpenWeather Current Weather Data](https://openweathermap.org/current)  
+- **Architecture:** MVVM  
+- **Dependency Injection:** Used to manage  `UserPreferences` for the temperature.  
+- **SOLID Principles:** Applied to ensure scalability and maintainability.  
+
+---
+
+## ⚙️ Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Lukas-io/clima.git
+   cd <repo-name>
+   ```
+2. Open the project in **Xcode**.
+3. Add your **OpenWeather URL** in `WeatherManager.swift`:
+   ```swift
+   let url = "YOUR_WEATHER_URL"
+   ```
+4. Build and run the app on a simulator or physical device.
+
+## 📸 Screenshots
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2025-10-07 at 13 16 25" src="https://github.com/user-attachments/assets/d6563fd9-b915-4a03-a5ab-863d5ee669b0" />
 
 
-## What you will create
+---
 
-By the end of the module, you will have made a beautiful, dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually. 
-
-## What you will learn
-
-* How to create a dark-mode enabled app.
-* How to use vector images as image assets.
-* Learn to use the UITextField to get user input. 
-* Learn about the delegate pattern.
-* Swift protocols and extensions. 
-* Swift guard keyword. 
-* Swift computed properties.
-* Swift closures and completion handlers.
-* Learn to use URLSession to network and make HTTP requests.
-* Parse JSON with the native Encodable and Decodable protocols. 
-* Learn to use Grand Central Dispatch to fetch the main thread.
-* Learn to use Core Location to get the current location from the phone GPS. 
-
-### Condition Codes
-```
-switch conditionID {
-        case 200...232:
-            return "cloud.bolt"
-        case 300...321:
-            return "cloud.drizzle"
-        case 500...531:
-            return "cloud.rain"
-        case 600...622:
-            return "cloud.snow"
-        case 701...781:
-            return "cloud.fog"
-        case 800:
-            return "sun.max"
-        case 801...804:
-            return "cloud.bolt"
-        default:
-            return "cloud"
-        }
-```
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
+## 🧍 Author
+**Wisdom Iyamu**  
+Mobile Developer — Swift & Flutter  
+www.linkedin.com/in/lukasio(#)
