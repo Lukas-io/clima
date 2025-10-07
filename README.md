@@ -35,7 +35,7 @@ The app is built using the **MVVM (Model-View-ViewModel)** pattern:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Lukas-io/clima.git
-   cd <repo-name>
+   cd clima
    ```
 2. Open the project in **Xcode**.
 3. Add your **OpenWeather URL** in `WeatherManager.swift`:
