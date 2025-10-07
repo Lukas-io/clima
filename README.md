@@ -47,7 +47,6 @@ The app is built using the **MVVM (Model-View-ViewModel)** pattern:
 ## 📸 Screenshots
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2025-10-07 at 13 16 25" src="https://github.com/user-attachments/assets/d6563fd9-b915-4a03-a5ab-863d5ee669b0" />
 
-
 ---
 
 ## 🧍 Author
