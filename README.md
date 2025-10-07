@@ -53,4 +53,4 @@ The app is built using the **MVVM (Model-View-ViewModel)** pattern:
 ## 🧍 Author
 **Wisdom Iyamu**  
 Mobile Developer — Swift & Flutter  
-www.linkedin.com/in/lukasio(#)
+www.linkedin.com/in/lukasio
